@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-todo-list",
+  "version": "1.0.0",
+  "description": "todolist",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app/index.js",
+    "dev": "nodemon app/index.js",
+    "command-test": "node app/index.js test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huyenvu17/nodejs-todolist.git"
+  },
+  "author": "Huyen Vu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huyenvu17/nodejs-todolist/issues"
+  },
+  "homepage": "https://github.com/huyenvu17/nodejs-todolist#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "yargs": "^17.3.1"
+  }
+}
